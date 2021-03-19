@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\boo.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\boo.dir/objects.a @CMakeFiles\boo.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -flto -fno-fat-lto-objects -Wl,--whole-archive CMakeFiles\boo.dir/objects.a -Wl,--no-whole-archive -o boo.exe -Wl,--out-implib,libboo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\boo.dir\linklibs.rsp

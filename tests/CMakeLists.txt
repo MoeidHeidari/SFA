@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 set(TESTFILES        # All .cpp files in tests/
-    main.cpp
-    foo.cpp
+
 )
 
 set(TEST_MAIN unit_tests)

@@ -1,0 +1,2 @@
+"C:/MinGW/bin/gcc-ar.exe" cr libfoo.a CMakeFiles/foo.dir/foo.cpp.obj
+"C:/MinGW/bin/gcc-ranlib.exe" libfoo.a
