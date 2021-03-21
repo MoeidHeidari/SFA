@@ -83,7 +83,23 @@ CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\eaglet\gitHub\SFA\src\JumpSearch.cpp -o CMakeFiles\myLibrary.dir\src\JumpSearch.cpp.s
 
+CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj: CMakeFiles/myLibrary.dir/flags.make
+CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj: CMakeFiles/myLibrary.dir/includes_CXX.rsp
+CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj: ../src/BinarySearch.cpp
+CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj: CMakeFiles/myLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\eaglet\gitHub\SFA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj -MF CMakeFiles\myLibrary.dir\src\BinarySearch.cpp.obj.d -o CMakeFiles\myLibrary.dir\src\BinarySearch.cpp.obj -c C:\eaglet\gitHub\SFA\src\BinarySearch.cpp
+
+CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\eaglet\gitHub\SFA\src\BinarySearch.cpp > CMakeFiles\myLibrary.dir\src\BinarySearch.cpp.i
+
+CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\eaglet\gitHub\SFA\src\BinarySearch.cpp -o CMakeFiles\myLibrary.dir\src\BinarySearch.cpp.s
+
 myLibrary: CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj
+myLibrary: CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj
 myLibrary: CMakeFiles/myLibrary.dir/build.make
 .PHONY : myLibrary
 

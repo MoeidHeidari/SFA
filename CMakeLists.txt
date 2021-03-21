@@ -30,7 +30,7 @@ find_lto(CXX)
 # --------------------------------------------------------------------------------
 #                         Locate files (change as needed).
 # --------------------------------------------------------------------------------
-set(SOURCES src/JumpSearch.cpp)
+set(SOURCES src/JumpSearch.cpp src/BinarySearch.cpp)
 set(TESTFILES tests/main.cpp)
 
 set(LIBRARY_NAME myLibrary)

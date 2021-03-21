@@ -6,6 +6,11 @@
 },
 {
   "directory": "C:/eaglet/gitHub/SFA/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -DENABLE_DOCTEST_IN_LIBRARY @CMakeFiles/myLibrary.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles\\myLibrary.dir\\src\\BinarySearch.cpp.obj -c C:\\eaglet\\gitHub\\SFA\\src\\BinarySearch.cpp",
+  "file": "C:/eaglet/gitHub/SFA/src/BinarySearch.cpp"
+},
+{
+  "directory": "C:/eaglet/gitHub/SFA/build",
   "command": "C:\\MinGW\\bin\\g++.exe -DENABLE_DOCTEST_IN_LIBRARY @CMakeFiles/main.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles\\main.dir\\app\\main.cpp.obj -c C:\\eaglet\\gitHub\\SFA\\app\\main.cpp",
   "file": "C:/eaglet/gitHub/SFA/app/main.cpp"
 }

@@ -578,6 +578,30 @@ app/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
+src/BinarySearch.obj: src/BinarySearch.cpp.obj
+.PHONY : src/BinarySearch.obj
+
+# target to build an object file
+src/BinarySearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj
+.PHONY : src/BinarySearch.cpp.obj
+
+src/BinarySearch.i: src/BinarySearch.cpp.i
+.PHONY : src/BinarySearch.i
+
+# target to preprocess a source file
+src/BinarySearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.i
+.PHONY : src/BinarySearch.cpp.i
+
+src/BinarySearch.s: src/BinarySearch.cpp.s
+.PHONY : src/BinarySearch.s
+
+# target to generate assembly for a file
+src/BinarySearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.s
+.PHONY : src/BinarySearch.cpp.s
+
 src/JumpSearch.obj: src/JumpSearch.cpp.obj
 .PHONY : src/JumpSearch.obj
 
@@ -647,6 +671,9 @@ help:
 	@echo ... app/main.obj
 	@echo ... app/main.i
 	@echo ... app/main.s
+	@echo ... src/BinarySearch.obj
+	@echo ... src/BinarySearch.i
+	@echo ... src/BinarySearch.s
 	@echo ... src/JumpSearch.obj
 	@echo ... src/JumpSearch.i
 	@echo ... src/JumpSearch.s

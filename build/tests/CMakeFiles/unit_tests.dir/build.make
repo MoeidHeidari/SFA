@@ -73,9 +73,11 @@ unit_tests_OBJECTS =
 
 # External object files for target unit_tests
 unit_tests_EXTERNAL_OBJECTS = \
-"C:/eaglet/gitHub/SFA/build/CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj"
+"C:/eaglet/gitHub/SFA/build/CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj" \
+"C:/eaglet/gitHub/SFA/build/CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj"
 
 unit_tests.exe: CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj
+unit_tests.exe: CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj
 unit_tests.exe: tests/CMakeFiles/unit_tests.dir/build.make
 unit_tests.exe: tests/CMakeFiles/unit_tests.dir/linklibs.rsp
 unit_tests.exe: tests/CMakeFiles/unit_tests.dir/objects1.rsp

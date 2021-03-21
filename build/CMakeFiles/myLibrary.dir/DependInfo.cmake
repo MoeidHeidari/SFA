@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/eaglet/gitHub/SFA/src/BinarySearch.cpp" "CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj" "gcc" "CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj.d"
   "C:/eaglet/gitHub/SFA/src/JumpSearch.cpp" "CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj" "gcc" "CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj.d"
   )
 

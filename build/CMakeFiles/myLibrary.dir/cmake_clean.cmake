@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj"
+  "CMakeFiles/myLibrary.dir/src/BinarySearch.cpp.obj.d"
   "CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj"
   "CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj.d"
 )
