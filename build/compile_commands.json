@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/eaglet/gitHub/SFA/build",
-  "command": "C:\\MinGW\\bin\\g++.exe -DENABLE_DOCTEST_IN_LIBRARY @CMakeFiles/myLibrary.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles\\myLibrary.dir\\src\\Foo.cpp.obj -c C:\\eaglet\\gitHub\\SFA\\src\\Foo.cpp",
-  "file": "C:/eaglet/gitHub/SFA/src/Foo.cpp"
+  "command": "C:\\MinGW\\bin\\g++.exe -DENABLE_DOCTEST_IN_LIBRARY @CMakeFiles/myLibrary.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles\\myLibrary.dir\\src\\JumpSearch.cpp.obj -c C:\\eaglet\\gitHub\\SFA\\src\\JumpSearch.cpp",
+  "file": "C:/eaglet/gitHub/SFA/src/JumpSearch.cpp"
 },
 {
   "directory": "C:/eaglet/gitHub/SFA/build",

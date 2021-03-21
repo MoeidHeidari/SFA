@@ -129,7 +129,8 @@ CMakeFiles/main.dir/app/main.cpp.obj: ../app/main.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/modified_bessel_func.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/poly_hermite.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/poly_laguerre.tcc \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/riemann_zeta.tcc
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/riemann_zeta.tcc \
+  ../include/JumpSearch.h
 
 
 ../app/main.cpp:
@@ -379,3 +380,5 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/poly_hermite.tcc:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/poly_laguerre.tcc:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/riemann_zeta.tcc:
+
+../include/JumpSearch.h:

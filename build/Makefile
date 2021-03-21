@@ -578,29 +578,29 @@ app/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-src/Foo.obj: src/Foo.cpp.obj
-.PHONY : src/Foo.obj
+src/JumpSearch.obj: src/JumpSearch.cpp.obj
+.PHONY : src/JumpSearch.obj
 
 # target to build an object file
-src/Foo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/Foo.cpp.obj
-.PHONY : src/Foo.cpp.obj
+src/JumpSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj
+.PHONY : src/JumpSearch.cpp.obj
 
-src/Foo.i: src/Foo.cpp.i
-.PHONY : src/Foo.i
+src/JumpSearch.i: src/JumpSearch.cpp.i
+.PHONY : src/JumpSearch.i
 
 # target to preprocess a source file
-src/Foo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/Foo.cpp.i
-.PHONY : src/Foo.cpp.i
+src/JumpSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.i
+.PHONY : src/JumpSearch.cpp.i
 
-src/Foo.s: src/Foo.cpp.s
-.PHONY : src/Foo.s
+src/JumpSearch.s: src/JumpSearch.cpp.s
+.PHONY : src/JumpSearch.s
 
 # target to generate assembly for a file
-src/Foo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/Foo.cpp.s
-.PHONY : src/Foo.cpp.s
+src/JumpSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.s
+.PHONY : src/JumpSearch.cpp.s
 
 # Help Target
 help:
@@ -647,9 +647,9 @@ help:
 	@echo ... app/main.obj
 	@echo ... app/main.i
 	@echo ... app/main.s
-	@echo ... src/Foo.obj
-	@echo ... src/Foo.i
-	@echo ... src/Foo.s
+	@echo ... src/JumpSearch.obj
+	@echo ... src/JumpSearch.i
+	@echo ... src/JumpSearch.s
 .PHONY : help
 
 

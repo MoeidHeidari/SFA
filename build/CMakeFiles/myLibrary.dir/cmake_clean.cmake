@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/myLibrary.dir/src/Foo.cpp.obj"
-  "CMakeFiles/myLibrary.dir/src/Foo.cpp.obj.d"
+  "CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj"
+  "CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.
