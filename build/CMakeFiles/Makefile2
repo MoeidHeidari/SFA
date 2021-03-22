@@ -883,12 +883,12 @@ CMakeFiles/doc.dir/clean:
 CMakeFiles/myLibrary.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\eaglet\gitHub\SFA\build\CMakeFiles --progress-num=4,5 "Built target myLibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\eaglet\gitHub\SFA\build\CMakeFiles --progress-num=4,5,6 "Built target myLibrary"
 .PHONY : CMakeFiles/myLibrary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myLibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/myLibrary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 0
 .PHONY : CMakeFiles/myLibrary.dir/rule
@@ -914,7 +914,7 @@ CMakeFiles/main.dir/all: CMakeFiles/myLibrary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -935,12 +935,12 @@ CMakeFiles/main.dir/clean:
 tests/CMakeFiles/unit_tests.dir/all: CMakeFiles/myLibrary.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\unit_tests.dir\build.make tests/CMakeFiles/unit_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\unit_tests.dir\build.make tests/CMakeFiles/unit_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\eaglet\gitHub\SFA\build\CMakeFiles --progress-num=6 "Built target unit_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\eaglet\gitHub\SFA\build\CMakeFiles --progress-num=7 "Built target unit_tests"
 .PHONY : tests/CMakeFiles/unit_tests.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/unit_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/unit_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\eaglet\gitHub\SFA\build\CMakeFiles 0
 .PHONY : tests/CMakeFiles/unit_tests.dir/rule

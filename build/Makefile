@@ -626,6 +626,30 @@ src/JumpSearch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/JumpSearch.cpp.s
 .PHONY : src/JumpSearch.cpp.s
 
+src/LinearSearch.obj: src/LinearSearch.cpp.obj
+.PHONY : src/LinearSearch.obj
+
+# target to build an object file
+src/LinearSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/LinearSearch.cpp.obj
+.PHONY : src/LinearSearch.cpp.obj
+
+src/LinearSearch.i: src/LinearSearch.cpp.i
+.PHONY : src/LinearSearch.i
+
+# target to preprocess a source file
+src/LinearSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/LinearSearch.cpp.i
+.PHONY : src/LinearSearch.cpp.i
+
+src/LinearSearch.s: src/LinearSearch.cpp.s
+.PHONY : src/LinearSearch.s
+
+# target to generate assembly for a file
+src/LinearSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myLibrary.dir\build.make CMakeFiles/myLibrary.dir/src/LinearSearch.cpp.s
+.PHONY : src/LinearSearch.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -677,6 +701,9 @@ help:
 	@echo ... src/JumpSearch.obj
 	@echo ... src/JumpSearch.i
 	@echo ... src/JumpSearch.s
+	@echo ... src/LinearSearch.obj
+	@echo ... src/LinearSearch.i
+	@echo ... src/LinearSearch.s
 .PHONY : help
 
 

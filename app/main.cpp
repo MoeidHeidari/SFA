@@ -4,11 +4,13 @@
 #include <cmath>
 #include "JumpSearch.h"
 #include "BinarySearch.h"
+#include "LinearSearch.h"
 
 int main()
 {
   JumpSearch j = JumpSearch();
   BinarySearch b = BinarySearch();
+  LinearSearch l = LinearSearch();
   //the sorted array
   int array[17] ={1,12,56,93,294,300,400,534,600,900};
   //the value which we are searching for
@@ -24,6 +26,7 @@ int main()
   //the zero in the arguments is for calculating the number of calling function
   std::cout<<"founded index by binary_Search_algorithm = "<< b.binarySearchFunc(array, length, input , -1)<<std::endl;
 
+  std::cout<<"founded index by linear_Search_algorithm = "<< l.linearSearchFunc(array, input ,length)<<std::endl;
 
   return 0;
 }
